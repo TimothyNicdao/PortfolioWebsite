@@ -42,10 +42,8 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="https://www.linkedin.com/in/timothnicdao/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/TimothyNicdao" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
@@ -128,7 +126,16 @@
 														</div>
 														<div class="modal-body">
 															<img src="images/CommonLit.png" class="card-img-top" alt="CommonLit.org">
-															<p>For this project, the task was to evaluate the readability of text and rate them based on their difficulty. The target values that I tried to predict were the Bradley-Terry analysis of pairwise comparisons between excerpts. Teachers spanning grades 3-12 served as the raters for these comparisons with majority being teachers for grades 6-10.  </p>
+															<p>For this project, the task was to evaluate the readability of text and rate them based on their difficulty. 
+																The target values that I tried to predict were the Bradley-Terry analysis of pairwise comparisons between excerpts. 
+																Teachers spanning grades 3-12 served as the raters for these comparisons with majority being teachers for grades 6-10. <br> <br>
+																In order to evaluate the readability of the texts, I used a hugging face Transformer Roberta model to extract features of the text and added a regression head for the down stream task. 
+																The model was implemented with PyTorch and to determine model generalizability, I used a Kfold cross validation technique with 5 folds. 
+															</p>
+															
+															<a href="https://github.com/TimothyNicdao/CommonLitReadability">See project repository</a>
+
+
 														</div>
 														<div class="modal-footer">
 														<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -147,45 +154,93 @@
 										</header> -->
 
 									</article>
-
+<!-- 
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Rhoncus Semper</h3>
 										</header>
-									</article>
+									</article> -->
 
 								</div>
 
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
+										<div class="card" style="width: 100%;">
+											<img src="images/Concurrency.jfif" class="card-img-top" alt="Java Concurrency">
+											<div class="card-body">
+												<h5 class="card-title">ICS 432: Multithreaded Image Processing App</h5>
+												<p class="card-text">A multithreaded image processing app for the class ICS 432: Concurrency</p>
+
+												<!-- Button trigger modal -->
+												<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ConcurrencyModal">
+													See more details
+												</button>
+											
+												<!-- Modal -->
+												<div class="modal fade" id="ConcurrencyModal" tabindex="-1" role="dialog" aria-labelledby="ConcurrencyModal" aria-hidden="false">
+													<div class="modal-dialog modal-dialog-centered" role="document">
+													<div class="modal-content">
+														<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLongTitle">ICS 432: Concurrency Project</h5>
+
+																			
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+															<span aria-hidden="true">&times;</span>
+														</button>
+														</div>
+														<div class="modal-body">
+															<img src="images/Concurrency.jfif" class="card-img-top" alt="Java concurerncy">
+															<p> This project was built for the class ICS 432: Concurrency and was implemented in Java. Our task was to build an image processing app that uses concurrency to speed up processing of batches of images. 
+																For this project, we had to implement several methods that allow for concurrency without allowing race conditions by using Locks, Condition Variables and Semaphores. 
+															</p>
+															
+															<a href="https://github.com/TimothyNicdao/ics432imgapp">See project repository</a>
+
+
+														</div>
+														<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+													</div>
+												</div>
+									
+					
+											</div>	
+										</div>
 									</article>
+<!-- 									
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
 										<header>
 											<h3>Natoque Vitae</h3>
 										</header>
-									</article>
+									</article> -->
+
 								</div>
 								
 								<div class="col-4 col-12-mobile">
+
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
 										<header>
 											<h3>Dolor Penatibus</h3>
 										</header>
 									</article>
+
+
+<!-- 
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 										<header>
 											<h3>Orci Convallis</h3>
 										</header>
-									</article>
+									</article> -->
+									
 								</div>
+
+
 							</div>
 
 						</div>
