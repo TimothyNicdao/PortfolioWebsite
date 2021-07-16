@@ -2644,6 +2644,28 @@ input, select, textarea {
 
 
 .aboutMePic {
-	display:inline-block;
+	float: left;
+	border-radius: 50%;
+	height: 20%;
+	width: 20%;
+}
+
+#about{
+	height: 50%;
+}
+
+.fleft{
 	float:left;
+}
+
+.aboutMeContact {
+	margin-top: 5%;
+}
+
+.abmeIcons {
+	padding-left: 8%;
+}
+
+.amLin {
+	padding-left: 2%
 }
