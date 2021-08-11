@@ -2638,9 +2638,9 @@ input, select, textarea {
 /* My edits */
 
 
-/* #title{
-	margin-left: px;
-} */
+#title{
+	margin-left: 20%;
+}
 
 
 .aboutMePic {
